@@ -1,0 +1,62 @@
+ <html>
+  <head>
+    <title>Gesture To Emoji</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+<h1 class="h11">Gesture To Emoji App <br> 
+</h1>
+<span>&#128077;</span>
+<span>&#128076;</span>
+<span>&#9996;</span>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Take a picture of a gesture 
+
+      </p>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Webcam View - </label>
+        <div id="camera"></div>
+        <br><br>
+        <button id="btncap" onclick="takesnap()">Capture Image</button>
+
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12" >
+        <label id="lb1">Prediction 1</label>
+        <p id="result_gesture_name" class="gesture_name"></p>
+        <p class="emoji" id="update_emoji"></p>
+        <label id="lb2">Prediction 2</label>
+        <p id="result_gesture_name2" class="gesture_name"></p>
+        <p class="emoji" id="update_emoji2"></p>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot View - </label>
+        <div id="result"></div>
+        <br><br>
+        <button id="btnsnap" onclick="check()">Predict Gesture</button>
+
+      </div>
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

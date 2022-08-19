@@ -1,0 +1,62 @@
+body {
+  color: white;
+  background: #948e86;
+}
+
+span {
+  font-size: 30px;
+}
+
+#camera,
+#result {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+  color: black;
+}
+
+.emotion_name {
+  font-size: 40px;
+}
+
+.emoji {
+  font-size: 48px;
+}
+
+.h11 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 15px;
+  font-size: 60px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.233);
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+#btncap,
+#btnsnap {
+  background-color: #7a756f;
+  border-radius: 5px;
+  border-width: 0;
+  font-family: 'Nunito', sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+  padding: 10px;
+  height: 40px;
+  width: 150px;
+}
+
+#lb1,
+#lb2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+label {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
